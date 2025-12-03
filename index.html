@@ -9,10 +9,13 @@
 <body>
     <div class="container">
         <h1>Encriptación Hill</h1>
-        <h2>Tecnológico de Software</h2>
-        <h2>Fundamentos de Álgebra</h2>
-        <h2>Prof. Jorge Javier Pedroza Romero</h2>
-        <h2>Alumno. Patricio Medina Batun, Grupo 1B</h2>
+        <div class="info-header">
+            <h2>Tecnológico de Software</h2>
+            <h2>Fundamentos de Álgebra</h2>
+            <p><strong>Profesor:</strong> Jorge Javier Pedroza Romero</p>
+            <p><strong>Alumno:</strong> Patricio Medina Batun, Grupo 1B</p>
+        </div>
+
         <div class="section">
             <label for="mensaje">Mensaje (máx. 30 caracteres)</label>
             <textarea id="mensaje" maxlength="30" placeholder="Escribe tu mensaje aquí..."></textarea>
@@ -40,8 +43,13 @@
         </div>
 
         <div class="section">
-            <h3>Resultado</h3>
+            <h3>Texto Encriptado</h3>
             <div id="resultado" class="resultado-box"></div>
+        </div>
+
+        <div class="section">
+            <h3>Texto Desencriptado</h3>
+            <div id="resultadoDes" class="resultado-box"></div>
         </div>
     </div>
 
